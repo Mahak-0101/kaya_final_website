@@ -1,121 +1,115 @@
+````md
 <div align="center">
 
-# 🚀 Next.js Project
+# ✨ Kaya Beauty Studio
 
-<img src="https://skillicons.dev/icons?i=nextjs,react,typescript,nodejs" />
+### Premium Beauty Salon Website built with Next.js
 
-### ⚡ Built with Next.js • TypeScript • React
+<p align="center">
+A modern, elegant, responsive beauty salon website designed to deliver a luxurious online experience with seamless booking, premium UI, and blazing-fast performance.
+</p>
 
-![GitHub Repo stars](https://img.shields.io/github/stars/your-username/your-repository?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/your-username/your-repository?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/your-username/your-repository?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/your-repository?style=for-the-badge)
+<p align="center">
+
+<img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
+<img src="https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" />
+<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss" />
+<img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel" />
+
+</p>
+
+### 🌐 Live Website
+
+## https://kaya-final-website.vercel.app/
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=E88EA2&height=120&section=footer"/>
 
 </div>
 
----
+# Overview
 
-# 📖 About
+Kaya Beauty Studio is a premium salon website built with **Next.js** and modern web technologies.
 
-This project is built using **Next.js**, one of the most powerful React frameworks for creating modern, fast, and scalable web applications.
-
-It was bootstrapped using:
-
-```bash
-create-next-app
-```
+The project focuses on creating a luxurious digital experience through elegant design, smooth animations, responsive layouts, and optimized performance.
 
 ---
 
-# ✨ Features
+# Features
 
-- ⚡ Lightning Fast Performance
-- 📱 Fully Responsive
-- 🎨 Modern UI
-- 🔥 TypeScript Support
-- 🌙 Easy to Customize
-- 🚀 Optimized for Production
-
----
-
-# 🛠️ Tech Stack
-
-| Technology | Purpose |
-|------------|---------|
-| ⚛️ React | Frontend Library |
-| ▲ Next.js | React Framework |
-| 📘 TypeScript | Type Safety |
-| 🎨 CSS / Tailwind | Styling |
-| 🟢 Node.js | Runtime |
+- Elegant Luxury UI
+- Fully Responsive Design
+- Fast Loading Performance
+- Modern Animations
+- SEO Optimized
+- Mobile Friendly
+- Clean Component Architecture
+- Optimized Images
+- Google Maps Integration
+- Appointment Booking
+- Professional Gallery
+- Contact Section
+- Smooth Scrolling
+- Modern Typography
 
 ---
 
-# 📂 Project Structure
+# Tech Stack
+
+| Technology | Usage |
+|------------|-------|
+| Next.js | React Framework |
+| React | User Interface |
+| TypeScript | Type Safety |
+| Tailwind CSS | Styling |
+| Vercel | Deployment |
+
+---
+
+# Project Structure
 
 ```text
-project-name/
-│
+.
 ├── app/
-├── public/
 ├── components/
+├── public/
 ├── styles/
+├── lib/
 ├── package.json
 └── README.md
-```
+````
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
-## 1️⃣ Clone the Repository
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-```
-
-Move into the project folder
+Clone the repository
 
 ```bash
-cd your-repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 ```
 
----
+Navigate to the project
 
-## 2️⃣ Install Dependencies
+```bash
+cd YOUR_REPOSITORY
+```
 
-Using npm
+Install dependencies
 
 ```bash
 npm install
 ```
 
-or
-
-```bash
-yarn
-```
-
-or
-
-```bash
-pnpm install
-```
-
-or
-
-```bash
-bun install
-```
-
----
-
-## 3️⃣ Start Development Server
+Start the development server
 
 ```bash
 npm run dev
 ```
 
-Open your browser and visit
+Open your browser
 
 ```
 http://localhost:3000
@@ -123,77 +117,88 @@ http://localhost:3000
 
 ---
 
-# 📝 Editing
+# Build for Production
 
-You can begin editing the application by modifying:
-
-```tsx
-app/page.tsx
+```bash
+npm run build
 ```
 
-The application automatically reloads whenever you save your changes.
+Start the production server
+
+```bash
+npm start
+```
 
 ---
 
-# 🎯 Built-in Optimizations
+# Deployment
 
-This project includes:
+This project is deployed on **Vercel**.
 
-- ✅ Automatic Font Optimization
-- ✅ Image Optimization
-- ✅ Fast Refresh
-- ✅ Server Components
-- ✅ App Router
-- ✅ Production Optimization
+Live Preview
+
+https://kaya-final-website.vercel.app/
 
 ---
 
-# 📚 Learn More
+# Performance
 
-Useful Resources
-
-- 📖 https://nextjs.org/docs
-- 🎓 https://nextjs.org/learn
-- 💻 https://github.com/vercel/next.js
-
----
-
-# 🚀 Deployment
-
-The easiest deployment method is through **Vercel**.
-
-Deploy your project in minutes:
-
-https://vercel.com/new
-
-For detailed instructions:
-
-https://nextjs.org/docs/app/building-your-application/deploying
+* Next.js App Router
+* Automatic Code Splitting
+* Image Optimization
+* Font Optimization
+* SEO Friendly
+* Responsive Layout
+* Optimized Assets
+* Fast Refresh
+* Production Ready
 
 ---
 
-# 🤝 Contributing
+# Screenshots
 
-Contributions are welcome!
+> Add screenshots here
 
-1. Fork the repository
-2. Create a new branch
-3. Commit your changes
-4. Push your branch
-5. Open a Pull Request
+```
+public/screenshots/
+
+Home.png
+Services.png
+Gallery.png
+Booking.png
+Footer.png
+```
 
 ---
 
-# ⭐ Support
+# Future Improvements
 
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+* Online Payment Integration
+* Customer Dashboard
+* Admin Panel
+* Blog Section
+* Reviews & Ratings
+* Email Notifications
+* Appointment Management
 
-It helps support future development.
+---
+
+# Author
+
+**Mahak Saxena**
+
+Founder — **MahakTech**
+
+GitHub:
+https://github.com/Mahak-0101
 
 ---
 
 <div align="center">
 
-### Made with ❤️ using Next.js
+### Crafted with ❤️ using Next.js & TypeScript
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=E88EA2&height=120&section=footer"/>
 
 </div>
+```
