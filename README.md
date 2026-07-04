@@ -1,20 +1,25 @@
-````markdown
 <div align="center">
 
 # ✨ Kaya Beauty Studio
 
 ### Luxury Beauty Salon Website
 
-A premium, elegant and fully responsive beauty salon website crafted with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.
+<p align="center">
+
+A modern, elegant and fully responsive beauty salon website developed using Next.js, React, TypeScript and Tailwind CSS.
+
+Designed to provide a premium digital experience with beautiful UI, smooth animations, optimized performance and responsive layouts.
+
+</p>
 
 <br>
 
-<a href="https://kaya-final-website.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-000000?style=for-the-badge">
+<a href="https://kaya-final-website.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_Live_Website-000000?style=for-the-badge">
 </a>
 
-<a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github">
+<a href="YOUR_GITHUB_REPOSITORY_LINK">
+    <img src="https://img.shields.io/badge/📂_Source_Code-181717?style=for-the-badge">
 </a>
 
 <br><br>
@@ -22,58 +27,53 @@ A premium, elegant and fully responsive beauty salon website crafted with **Next
 <img src="https://img.shields.io/badge/Next.js-15-black?logo=next.js">
 <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white">
 <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white">
-<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white">
+<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?logo=tailwindcss&logoColor=white">
 <img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel">
+<img src="https://img.shields.io/badge/Responsive-Yes-success">
 
 </div>
 
 ---
 
-# 🌸 About
+# 📖 About
 
-Kaya Beauty Studio is a modern luxury salon website designed to provide an elegant digital experience for beauty and wellness businesses.
+Kaya Beauty Studio is a luxury salon website built with modern web technologies.
 
-The project emphasizes clean design, premium aesthetics, smooth animations, responsive layouts, and optimized performance while maintaining excellent user experience across all devices.
+The project focuses on providing an elegant online experience through premium UI design, responsive layouts, smooth animations, optimized performance and SEO-friendly architecture.
 
----
-
-# ✨ Highlights
-
-✔ Premium Luxury Design
-
-✔ Fully Responsive
-
-✔ Modern Animations
-
-✔ Mobile Optimized
-
-✔ SEO Friendly
-
-✔ Lightning Fast
-
-✔ Clean Code Architecture
-
-✔ Optimized Images
-
-✔ Google Maps Integration
-
-✔ Appointment Booking
-
-✔ Professional Gallery
-
-✔ Contact Form
+Whether viewed on desktop, tablet or mobile devices, the website maintains a consistent luxury feel.
 
 ---
 
-# 🛠 Tech Stack
+# ✨ Features
+
+- 🌸 Premium Luxury User Interface
+- 📱 Fully Responsive Design
+- ⚡ Lightning Fast Performance
+- 🎨 Elegant Modern Layout
+- 🌙 Beautiful Animations
+- 📍 Google Maps Integration
+- 📷 Professional Gallery
+- 📞 Contact Section
+- 💅 Services Showcase
+- 📅 Appointment Booking
+- 🔍 SEO Optimized
+- 🚀 Production Ready
+
+---
+
+# 🛠️ Tech Stack
 
 | Technology | Description |
 |------------|-------------|
 | Next.js | React Framework |
-| React | Frontend Library |
-| TypeScript | Static Typing |
+| React | UI Library |
+| TypeScript | Type Safety |
 | Tailwind CSS | Styling |
-| Vercel | Hosting |
+| HTML5 | Markup |
+| CSS3 | Styling |
+| JavaScript | Client Logic |
+| Vercel | Deployment |
 
 ---
 
@@ -81,45 +81,52 @@ The project emphasizes clean design, premium aesthetics, smooth animations, resp
 
 ```text
 .
-├── app
-├── components
-├── public
-├── hooks
-├── lib
-├── styles
+├── app/
+├── components/
+├── hooks/
+├── lib/
+├── public/
+│
+├── public/images
+├── public/icons
+├── public/gallery
+│
+├── styles/
 ├── package.json
+├── tsconfig.json
+├── next.config.ts
 └── README.md
 ```
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Installation
 
-### Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-```
-
-### Move into Project
+Clone Repository
 
 ```bash
-cd YOUR_REPOSITORY
+git clone YOUR_GITHUB_REPOSITORY_LINK
 ```
 
-### Install Dependencies
+Move into Project
+
+```bash
+cd kaya-final-website
+```
+
+Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Start Development Server
+Run Development Server
 
 ```bash
 npm run dev
 ```
 
-Visit
+Open
 
 ```
 http://localhost:3000
@@ -127,13 +134,13 @@ http://localhost:3000
 
 ---
 
-# 📦 Production Build
+# 📦 Build Production
 
 ```bash
 npm run build
 ```
 
-Run production server
+Start Production
 
 ```bash
 npm start
@@ -141,84 +148,138 @@ npm start
 
 ---
 
-# 🌐 Live Website
+# 🌍 Live Website
 
 ## https://kaya-final-website.vercel.app/
 
 ---
 
-# 📸 Preview
+# 📸 Website Preview
 
-> Replace these with your screenshots.
+## Home Page
 
 ```
-public/screenshots/
-
-home.png
-services.png
-gallery.png
-booking.png
-footer.png
+public/screenshots/home.png
 ```
 
-After uploading screenshots, simply use:
+---
 
-```markdown
-<img src="public/screenshots/home.png" width="100%">
+## Services Page
+
+```
+public/screenshots/services.png
+```
+
+---
+
+## Gallery
+
+```
+public/screenshots/gallery.png
+```
+
+---
+
+## Booking
+
+```
+public/screenshots/booking.png
+```
+
+---
+
+## Contact
+
+```
+public/screenshots/contact.png
 ```
 
 ---
 
 # ⚡ Performance
 
-- Server Components
-- App Router
-- Fast Refresh
-- Code Splitting
-- Lazy Loading
-- Font Optimization
-- Image Optimization
-- Responsive Design
-- SEO Optimized
+✅ Fast Loading
+
+✅ Responsive Layout
+
+✅ Optimized Images
+
+✅ Font Optimization
+
+✅ SEO Friendly
+
+✅ App Router
+
+✅ Server Components
+
+✅ Code Splitting
+
+✅ Lazy Loading
+
+✅ Production Optimized
+
+---
+
+# 📈 Lighthouse
+
+| Category | Score |
+|----------|-------|
+| Performance | ⭐⭐⭐⭐⭐ |
+| Accessibility | ⭐⭐⭐⭐⭐ |
+| Best Practices | ⭐⭐⭐⭐⭐ |
+| SEO | ⭐⭐⭐⭐⭐ |
+
+---
+
+# 🔒 Security
+
+- Secure Deployment
+- HTTPS Enabled
+- Optimized Assets
+- Modern Framework
 - Production Ready
 
 ---
 
 # 🔮 Future Improvements
 
+- Online Payment Gateway
 - Customer Dashboard
-
-- Online Payment
-
-- Booking Management
-
 - Admin Dashboard
-
+- Appointment Management
 - Reviews & Ratings
-
 - Newsletter
-
 - Blog Section
+- AI Beauty Assistant
 
 ---
 
-# 👨‍💻 Developer
+# 👩‍💻 Developer
 
-**Mahak Saxena**
+### Mahak Saxena
 
-Founder • MahakTech
+Founder — MahakTech
 
 GitHub
 
+```
 https://github.com/Mahak-0101
+```
+
+---
+
+# ❤️ Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It motivates future development.
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, consider giving it a star.
+## Made with ❤️ using Next.js
 
-Made with ❤️ using Next.js
+**Crafted with precision, elegance and performance.**
 
 </div>
-````
