@@ -1,115 +1,125 @@
-````md
+````markdown
 <div align="center">
 
 # ✨ Kaya Beauty Studio
 
-### Premium Beauty Salon Website built with Next.js
+### Luxury Beauty Salon Website
 
-<p align="center">
-A modern, elegant, responsive beauty salon website designed to deliver a luxurious online experience with seamless booking, premium UI, and blazing-fast performance.
-</p>
+A premium, elegant and fully responsive beauty salon website crafted with **Next.js**, **React**, **TypeScript**, and **Tailwind CSS**.
 
-<p align="center">
+<br>
 
-<img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" />
-<img src="https://img.shields.io/badge/React-19-20232A?style=for-the-badge&logo=react" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" />
-<img src="https://img.shields.io/badge/TailwindCSS-38BDF8?style=for-the-badge&logo=tailwindcss" />
-<img src="https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel" />
+<a href="https://kaya-final-website.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-000000?style=for-the-badge">
+</a>
 
-</p>
+<a href="https://github.com/YOUR_USERNAME/YOUR_REPOSITORY">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github">
+</a>
 
-### 🌐 Live Website
+<br><br>
 
-## https://kaya-final-website.vercel.app/
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E88EA2&height=120&section=footer"/>
+<img src="https://img.shields.io/badge/Next.js-15-black?logo=next.js">
+<img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white">
+<img src="https://img.shields.io/badge/TailwindCSS-06B6D4?logo=tailwindcss&logoColor=white">
+<img src="https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel">
 
 </div>
 
-# Overview
+---
 
-Kaya Beauty Studio is a premium salon website built with **Next.js** and modern web technologies.
+# 🌸 About
 
-The project focuses on creating a luxurious digital experience through elegant design, smooth animations, responsive layouts, and optimized performance.
+Kaya Beauty Studio is a modern luxury salon website designed to provide an elegant digital experience for beauty and wellness businesses.
+
+The project emphasizes clean design, premium aesthetics, smooth animations, responsive layouts, and optimized performance while maintaining excellent user experience across all devices.
 
 ---
 
-# Features
+# ✨ Highlights
 
-- Elegant Luxury UI
-- Fully Responsive Design
-- Fast Loading Performance
-- Modern Animations
-- SEO Optimized
-- Mobile Friendly
-- Clean Component Architecture
-- Optimized Images
-- Google Maps Integration
-- Appointment Booking
-- Professional Gallery
-- Contact Section
-- Smooth Scrolling
-- Modern Typography
+✔ Premium Luxury Design
+
+✔ Fully Responsive
+
+✔ Modern Animations
+
+✔ Mobile Optimized
+
+✔ SEO Friendly
+
+✔ Lightning Fast
+
+✔ Clean Code Architecture
+
+✔ Optimized Images
+
+✔ Google Maps Integration
+
+✔ Appointment Booking
+
+✔ Professional Gallery
+
+✔ Contact Form
 
 ---
 
-# Tech Stack
+# 🛠 Tech Stack
 
-| Technology | Usage |
-|------------|-------|
+| Technology | Description |
+|------------|-------------|
 | Next.js | React Framework |
-| React | User Interface |
-| TypeScript | Type Safety |
+| React | Frontend Library |
+| TypeScript | Static Typing |
 | Tailwind CSS | Styling |
-| Vercel | Deployment |
+| Vercel | Hosting |
 
 ---
 
-# Project Structure
+# 📂 Folder Structure
 
 ```text
 .
-├── app/
-├── components/
-├── public/
-├── styles/
-├── lib/
+├── app
+├── components
+├── public
+├── hooks
+├── lib
+├── styles
 ├── package.json
 └── README.md
-````
+```
 
 ---
 
-# Getting Started
+# 🚀 Getting Started
 
-Clone the repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
 ```
 
-Navigate to the project
+### Move into Project
 
 ```bash
 cd YOUR_REPOSITORY
 ```
 
-Install dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server
+### Start Development Server
 
 ```bash
 npm run dev
 ```
 
-Open your browser
+Visit
 
 ```
 http://localhost:3000
@@ -117,13 +127,13 @@ http://localhost:3000
 
 ---
 
-# Build for Production
+# 📦 Production Build
 
 ```bash
 npm run build
 ```
 
-Start the production server
+Run production server
 
 ```bash
 npm start
@@ -131,74 +141,84 @@ npm start
 
 ---
 
-# Deployment
+# 🌐 Live Website
 
-This project is deployed on **Vercel**.
-
-Live Preview
-
-https://kaya-final-website.vercel.app/
+## https://kaya-final-website.vercel.app/
 
 ---
 
-# Performance
+# 📸 Preview
 
-* Next.js App Router
-* Automatic Code Splitting
-* Image Optimization
-* Font Optimization
-* SEO Friendly
-* Responsive Layout
-* Optimized Assets
-* Fast Refresh
-* Production Ready
-
----
-
-# Screenshots
-
-> Add screenshots here
+> Replace these with your screenshots.
 
 ```
 public/screenshots/
 
-Home.png
-Services.png
-Gallery.png
-Booking.png
-Footer.png
+home.png
+services.png
+gallery.png
+booking.png
+footer.png
+```
+
+After uploading screenshots, simply use:
+
+```markdown
+<img src="public/screenshots/home.png" width="100%">
 ```
 
 ---
 
-# Future Improvements
+# ⚡ Performance
 
-* Online Payment Integration
-* Customer Dashboard
-* Admin Panel
-* Blog Section
-* Reviews & Ratings
-* Email Notifications
-* Appointment Management
+- Server Components
+- App Router
+- Fast Refresh
+- Code Splitting
+- Lazy Loading
+- Font Optimization
+- Image Optimization
+- Responsive Design
+- SEO Optimized
+- Production Ready
 
 ---
 
-# Author
+# 🔮 Future Improvements
+
+- Customer Dashboard
+
+- Online Payment
+
+- Booking Management
+
+- Admin Dashboard
+
+- Reviews & Ratings
+
+- Newsletter
+
+- Blog Section
+
+---
+
+# 👨‍💻 Developer
 
 **Mahak Saxena**
 
-Founder — **MahakTech**
+Founder • MahakTech
 
-GitHub:
+GitHub
+
 https://github.com/Mahak-0101
 
 ---
 
 <div align="center">
 
-### Crafted with ❤️ using Next.js & TypeScript
+### ⭐ If you like this project, consider giving it a star.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=E88EA2&height=120&section=footer"/>
+Made with ❤️ using Next.js
 
 </div>
-```
+````
